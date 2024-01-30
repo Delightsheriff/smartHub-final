@@ -1,0 +1,31 @@
+/* 5. about */
+.about-content {
+  padding: 2rem 0;
+}
+.section-bg-one {
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgb(35, 204, 136) 0%,
+    rgb(142, 207, 53) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(35, 204, 136) 0%,
+    rgb(142, 207, 53) 100%
+  );
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgb(35, 204, 136) 0%,
+    rgb(142, 207, 53) 100%
+  );
+}
+.about-img img {
+  margin-top: 21px;
+}
+.about-features {
+  padding-left: 14px;
+  color: #555555;
+}
+.about-features li:not(:last-child) {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,45 @@
+.hero-section {
+  height: 100%;
+  width: 100%;
+  background: url('../../assets/img/slider/slide-01.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.inner-hero {
+  padding: 5rem 1rem;
+}
+.inner-hero p:first-child {
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.inner-hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 1rem 0;
+}
+.inner-hero p.last-child {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.hero-btn {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  .inner-hero {
+    width: 60%;
+  }
+}

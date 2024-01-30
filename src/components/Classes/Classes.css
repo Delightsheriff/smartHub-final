@@ -1,0 +1,122 @@
+/* 6. classes */
+.temp {
+  padding: 2rem 0;
+}
+.class-item {
+  box-shadow: 0px 0px 10px 0px rgba(136, 136, 136, 0.1);
+  overflow: hidden;
+  transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background: #fff;
+}
+.class-item .class-img {
+  overflow: hidden;
+}
+.class-item .class-img img {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.class-item:hover .class-img img {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+.class-item .class-content {
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.class-item .class-content .title {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.class-item .class-content .title a:hover {
+  color: #23cc88;
+}
+.class-img img {
+  width: 100%;
+}
+.schedule {
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.schedule li {
+  display: inline-block;
+  float: left;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  width: 33.33%;
+  position: relative;
+}
+.schedule li::after {
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  background: #ededed;
+  content: '';
+  top: 11px;
+  right: 0;
+}
+.schedule li:last-child::after {
+  display: none;
+}
+.schedule li span {
+  display: block;
+  line-height: 30px;
+  font-size: 15px;
+}
+.schedule li .class-size {
+  font-size: 18px;
+  color: #ff4f58;
+}
+.schedule li .class-size-2 {
+  color: #40cd72;
+}
+.class-content p {
+  margin-bottom: 12px;
+}
+
+.class-details .post-tag-wrapper {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.course-features li .ques,
+.course-features li .ans {
+  width: 50%;
+}
+.course-features li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #f6fafd;
+  color: #555555;
+}
+.course-features li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.course-features li .ans {
+  position: relative;
+  color: #00394f;
+  padding-left: 10px;
+}
+.course-features li .ans::before {
+  position: absolute;
+  top: 46%;
+  left: 0;
+  content: ':';
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.course-features .rating i {
+  color: #ffab50;
+  font-size: 13px;
+}
